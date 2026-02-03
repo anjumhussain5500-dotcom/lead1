@@ -1,0 +1,28 @@
+git add .
+git commit -m "UPDATED"
+GIT push origin main
+git status
+python manage.py createsuperuser
+pip install python-decouple
+python manage.py shell
+
+
+git remote show origin
+git remote rm origin
+git remote add origin <new-origin-url>
+git remote -v
+git credential-manager clear
+
+git config --global user.name "NewUsername"
+git config --global user.email "NewEmail@example.com"
+
+git config user.name "Your Name"
+git config user.email "your-email@example.com"
+git push origin main --force
+git filter-branch --force --index-filter \
+  'git rm --cached --ignore-unmatch rtns-413207-168420d2b7cd.json' \
+  --prune-empty --tag-name-filter cat -- --all
+
+
+
+
