@@ -94,9 +94,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER':'postgres',
-        'PASSWORD':'rgleWvCGRGrjrtgwOjSPiTfveSchvLqT',
-        'HOST': 'ballast.proxy.rlwy.net',
-        'PORT': '50613', 
+        'PASSWORD':'IDAfTevBjyjSXxLlIXyXVSZuLLcIXwqo',
+        'HOST': 'mainline.proxy.rlwy.net',
+        'PORT': '26852', 
         
     }
 }
@@ -166,9 +166,9 @@ EMAIL_HOST_PASSWORD = 'aslv yjfi ffnm kafe'
 
 ADMIN_EMAIL='nawaztahira708@gmail.com'
 # settings.py
-ALLOWED_HOSTS = ['www.rtns-uejbd.org','web-production-83bf.up.railway.app','web-production-f7e9.up.railway.app']
+ALLOWED_HOSTS = ['www.rtns-uejbd.org','lead1-production.up.railway.app']
 #ALLOWED_HOSTS = ["*"]
 LOGIN_URL = 'user_auth:user_signin'
 
 GOOGLE_DRIVE_CREDENTIALS = os.path.join(BASE_DIR, 'rtns-413207-168420d2b7cd.json')
-CSRF_TRUSTED_ORIGINS=['https://web-production-83bf.up.railway.app','https://www.rtns-uejbd.org','https://web-production-f7e9.up.railway.app']
+CSRF_TRUSTED_ORIGINS=['https://lead1-production.up.railway.app','https://www.rtns-uejbd.org','https://web-production-f7e9.up.railway.app']
