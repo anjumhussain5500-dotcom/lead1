@@ -97,7 +97,6 @@ DATABASES = {
         'PASSWORD':'rgleWvCGRGrjrtgwOjSPiTfveSchvLqT',
         'HOST': 'ballast.proxy.rlwy.net',
         'PORT': '50613', 
-        
     }
 }
 
